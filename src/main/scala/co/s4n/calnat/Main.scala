@@ -47,5 +47,5 @@ object Main extends App {
   // Main
   val (a) = readTS("Leer primer entero ")
   val (b) = readTs("leer segundo entero ")
-  print(imprimirNat)
+  print(imprimirNat(restaNat(conIntANat(a),conIntANat(b))))
 }
